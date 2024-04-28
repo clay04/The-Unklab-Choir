@@ -1,3 +1,3 @@
-import Splash from './Splash';
+import Songs from './Songs';
 
-export {Splash};
+export {Songs};
