@@ -7,5 +7,33 @@ import Line from './Line.svg';
 import Dot from './Dot.svg';
 import Right from './Right.svg';
 import Left from './Left.svg';
+import NotIcon from './SongIcon.svg';
+import PerformanceIcon from './Performance.svg';
+import AwardsIcon from './Awards.svg';
+import BookingIcon from './Booking.svg';
+import MerchandiseIcon from './Merchandise.svg';
+import HistoryIcon from './HIstory.svg';
+import AuditionIcon from './Audition.svg';
+import MembersIcon from './Members.svg';
+import JadwalIcon from './Jadwal.svg';
 
-export {TUC, BackButton, SearchIcon, PlayIcon, DownloadIcon, Line, Dot, Right, Left};
+export {
+  TUC,
+  BackButton,
+  SearchIcon,
+  PlayIcon,
+  DownloadIcon,
+  Line,
+  Dot,
+  Right,
+  Left,
+  NotIcon,
+  PerformanceIcon,
+  AwardsIcon,
+  BookingIcon,
+  MerchandiseIcon,
+  HistoryIcon,
+  AuditionIcon,
+  MembersIcon,
+  JadwalIcon,
+};
