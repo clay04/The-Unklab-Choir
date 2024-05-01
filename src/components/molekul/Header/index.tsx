@@ -13,6 +13,7 @@ const Header = ({
   labelAlbums1,
   labelAlbums2,
   lableAlbums3,
+  textColor='#ffffff',
 }) => {
   if (title === 'albums') {
     return (
@@ -50,7 +51,7 @@ const Header = ({
         <Button type="icon-only" icon="icon-back" onPress={onPress} />
       )}
       <View>
-        <Text style={styles.label}>{label}</Text>
+        <Text style={styles.label(textColor)}>{label}</Text>
       </View>
     </View>
   );
@@ -69,12 +70,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
-  label: {
+  label: textColor => ({
     fontFamily: 'Poppins-Medium',
     fontSize: 22,
-    color: '#ffffff',
+    color: textColor,
     marginLeft: 26,
-  },
+  }),
   containerAlbums: {
     marginLeft: 27,
     paddingVertical: 37,
