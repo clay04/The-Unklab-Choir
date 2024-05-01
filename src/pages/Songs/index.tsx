@@ -17,29 +17,54 @@ const Songs = ({navigation}) => {
               <Search />
               <Gap height={21} />
               <Text style={styles.textQuicks}>Quick Picks</Text>
-              <View>
-                <Songss
-                  label1="With You"
-                  label2="Composed by Julius Teodoro"
-                  source={FotTUC}
-                  onPress={() => navigation.navigate('SongsPlay')}
-                />
-                <Songss
-                  label1="With You"
-                  label2="Composed by Julius Teodoro"
-                  source={FotTUC}
-                />
-                <Songss
-                  label1="With You"
-                  label2="Composed by Julius Teodoro"
-                  source={FotTUC}
-                />
-                <Songss
-                  label1="With You"
-                  label2="Composed by Julius Teodoro"
-                  source={FotTUC}
-                />
-              </View>
+              <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+                <View>
+                  <Songss
+                    label1="With You"
+                    label2="Composed by Julius Teodoro"
+                    source={FotTUC}
+                    onPress={() => navigation.navigate('SongsPlay')}
+                  />
+                  <Songss
+                    label1="With You"
+                    label2="Composed by Julius Teodoro"
+                    source={FotTUC}
+                  />
+                  <Songss
+                    label1="With You"
+                    label2="Composed by Julius Teodoro"
+                    source={FotTUC}
+                  />
+                  <Songss
+                    label1="With You"
+                    label2="Composed by Julius Teodoro"
+                    source={FotTUC}
+                  />
+                </View>
+                <View>
+                  <Songss
+                    label1="With You"
+                    label2="Composed by Julius Teodoro"
+                    source={FotTUC}
+                    onPress={() => navigation.navigate('SongsPlay')}
+                  />
+                  <Songss
+                    label1="With You"
+                    label2="Composed by Julius Teodoro"
+                    source={FotTUC}
+                  />
+                  <Songss
+                    label1="With You"
+                    label2="Composed by Julius Teodoro"
+                    source={FotTUC}
+                  />
+                  <Songss
+                    label1="With You"
+                    label2="Composed by Julius Teodoro"
+                    source={FotTUC}
+                  />
+                </View>
+              </ScrollView>
               <Gap height={30} />
               <Text style={styles.textQuicks}>Albums</Text>
               <View style={styles.albums}>

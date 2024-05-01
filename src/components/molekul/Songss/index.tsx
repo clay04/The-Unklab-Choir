@@ -19,7 +19,7 @@ export default Songss
 
 const styles = StyleSheet.create({
     container: {
-        width: '100%',
+        width: 350,
         height: 70,
         flexDirection: "row",
         backgroundColor: 'rgba(00, 00, 00, 0.07)',
