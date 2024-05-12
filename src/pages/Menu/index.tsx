@@ -15,7 +15,7 @@ const Menu = ({navigation}) => {
         <MenuButton label='Merchandise' type='merchandise'/>
         <MenuButton label='History' type='history'/>
         <MenuButton label='Audition' type='audition'/>
-        <MenuButton label='Members' type='members'/>
+        <MenuButton label='Members' type='members'onPress={() -> navigation.navigate('MembersMenu')}/>
         <MenuButton label='Jadwal' type='jadwal'/>
       </View>
     </View>
