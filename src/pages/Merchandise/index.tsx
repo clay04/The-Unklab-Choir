@@ -10,7 +10,7 @@ const Merchandise = ({navigation}) => {
         <LinearGradient
           colors={['#530303', '#000000', '#000000']}
           style={styles.gradient}>
-          <Header label="Merchandise" backButton={true} />
+          <Header label="Merchandise" backButton={true} onPress={() => navigation.goBack()}/>
           <Gap height={20}/>
         </LinearGradient>
       </View>
