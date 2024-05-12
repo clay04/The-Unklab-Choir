@@ -10,6 +10,22 @@ const Router = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen 
+        name="Menu"
+        component={Menu}
+        options={{headerShown: false}}/>
+        <Stack.Screen 
+        name="AlbumsPage"
+        component={AlbumsPages}
+        options={{headerShown: false}}/>
+        <Stack.Screen 
+        name="Songs"
+        component={Songs}
+        options={{headerShown: false}}/>
+        <Stack.Screen 
+        name="SongsPlay"
+        component={SongsPlay}
+        options={{headerShown: false}}/>
+      <Stack.Screen 
         name="MembersMenu"
         component={MembersMenu}
         options={{headerShown: false}}/>
