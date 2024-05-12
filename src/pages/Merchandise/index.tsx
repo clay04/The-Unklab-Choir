@@ -18,4 +18,11 @@ const Merchandise = ({navigation}) => {
 
 export default Merchandise
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+    },
+    gradient: {
+      flex: 1,
+    },
+});
