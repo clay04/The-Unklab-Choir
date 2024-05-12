@@ -71,4 +71,18 @@ const styles = StyleSheet.create({
     gradient: {
       flex: 1,
     },
+    export default Merchandise;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  gradient: {
+    flex: 1,
+  },
+  contentWrapp: {
+    marginHorizontal: 30,
+    marginBottom: 20,
+    width: 130,
+  },
 });
