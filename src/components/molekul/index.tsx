@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Songss from "./Songss";
-import Albums from "./Albums";
+import MembersMenuIcon from "./MembersMenuIcon";
+import MembersWrapp from "./MembersWrapp";
 
-export {Header, Songss, Albums};
+export {Header, MembersMenuIcon, MembersWrapp};
