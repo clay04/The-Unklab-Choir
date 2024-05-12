@@ -65,15 +65,6 @@ const Merchandise = ({navigation}) => {
 export default Merchandise
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-    },
-    gradient: {
-      flex: 1,
-    },
-    export default Merchandise;
-
-const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
@@ -85,4 +76,13 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     width: 130,
   },
+  containerWrapp: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  foto: {
+    borderRadius: 5,
+    marginBottom: 5,
 });
