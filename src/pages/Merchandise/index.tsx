@@ -11,6 +11,7 @@ const Merchandise = ({navigation}) => {
           colors={['#530303', '#000000', '#000000']}
           style={styles.gradient}>
           <Header label="Merchandise" backButton={true} />
+          <Gap height={20}/>
         </LinearGradient>
       </View>
     );
