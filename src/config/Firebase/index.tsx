@@ -14,6 +14,7 @@ const firebaseConfig = {
   messagingSenderId: '804136019510',
   appId: '1:804136019510:web:33a8fd807d962dd3bfda97',
   measurementId: 'G-E4YHGVVLBT',
+  dabaseURL: 'https://the-unklab-choir-default-rtdb.firebaseio.com/',
 };
 
 // Initialize Firebase
