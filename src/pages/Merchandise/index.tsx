@@ -4,13 +4,17 @@ import LinearGradient from 'react-native-linear-gradient';
 import {Gap, Header} from '../../components';
 import {lanyardpurple, lanyardred, shirt, tumbler} from '../../assets';
 
-const Merchandise = () => {
-  return (
-    <View>
-      <Text>Merchandise</Text>
-    </View>
-  )
-}
+const Merchandise = ({navigation}) => {
+    return (
+      <View style={styles.container}>
+        <LinearGradient
+          colors={['#530303', '#000000', '#000000']}
+          style={styles.gradient}>
+          <Header label="Merchandise" backButton={true} />
+        </LinearGradient>
+      </View>
+    );
+  };
 
 export default Merchandise
 
