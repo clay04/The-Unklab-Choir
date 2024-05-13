@@ -17,7 +17,8 @@ import Splash from './Splash';
 import Performance from './Perfirmance';
 import Booking from './Booking';
 import Home from './Home';
-import History from './History'
+import History from './History';
+import Awards from './Awards';
 
 export {
   Songs,
@@ -40,4 +41,5 @@ export {
   Booking,
   Home,
   History,
+  Awards,
 };

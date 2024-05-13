@@ -10,7 +10,7 @@ const Menu = ({navigation}) => {
       <View style={styles.containerWrapper}>
         <MenuButton label='Songs' type='song' onPress={() => navigation.navigate('Songs')}/>
         <MenuButton label='Performance'type='performance' onPress={() => navigation.navigate('Performance')}/>
-        <MenuButton label='Awards' type='awards'/>
+        <MenuButton label='Awards' type='awards' onPress={() => navigation.navigate('Awards')}/>
         <MenuButton label='Booking'type='booking' onPress={() => navigation.navigate('Booking')}/>
         <MenuButton label='Merchandise' type='merchandise'/>
         <MenuButton label='History' type='history' onPress={() => navigation.navigate('History')}/>

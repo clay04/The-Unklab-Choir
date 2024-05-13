@@ -5,11 +5,15 @@ import { Gap } from '../../atom'
 
 const Discover = ({label, onPress, source}) => {
   return (
-    <TouchableOpacity style={styles.container} activeOpacity={0.9} onPress={onPress}>
-      <Image source={source} style={styles.photo}/>
-      <Gap height={5} />
-      <Text style={styles.label}>{label}</Text>
-    </TouchableOpacity>
+    <View>
+      <TouchableOpacity style={styles.container} activeOpacity={0.9} onPress={onPress}>
+        <Image source={source} style={styles.photo}/>
+        <Gap height={5} />
+        <Text style={styles.label}>{label}</Text>
+      </TouchableOpacity>
+      <Gap height={15} />
+    </View>
+    
   )
 }
 

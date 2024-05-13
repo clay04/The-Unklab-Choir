@@ -43,6 +43,17 @@ const Header = ({
         </View>
       </View>
     );
+  } if (title === 'icon-black') {
+    return (
+      <View style={[styles.container, {backgroundColor: 'transparent'}]}>
+      {backButton && (
+        <Button type="icon-white" icon="icon-white" onPress={onPress} />
+      )}
+      <View>
+        <Text style={styles.label(textColor)}>{label}</Text>
+      </View>
+    </View>
+    )
   }
 
   return (

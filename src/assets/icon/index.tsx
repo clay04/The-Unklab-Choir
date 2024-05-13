@@ -19,6 +19,7 @@ import JadwalIcon from './Jadwal.svg';
 import Mail from './Mail.svg';
 import Password from './Password.svg';
 import Right1 from './Right1.svg';
+import backButtonWhite from './backbuttonWhite.svg';
 
 export {
   TUC,
@@ -42,4 +43,5 @@ export {
   Mail,
   Password,
   Right1,
+  backButtonWhite,
 };
