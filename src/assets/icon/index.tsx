@@ -19,6 +19,7 @@ import JadwalIcon from './Jadwal.svg';
 import Mail from './Mail.svg';
 import Password from './Password.svg'
 import Bank from './payment.svg'
+import Clock from './clock.svg'
 
 export {
   TUC,
@@ -41,5 +42,6 @@ export {
   JadwalIcon,
   Mail,
   Password,
-  Bank
+  Bank,
+  Clock,
 };
