@@ -15,6 +15,7 @@ import ProfileMembers from './Members/ProfileMembers';
 import Login from './Login';
 import Splash from './Splash';
 import Performance from './Perfirmance';
+import Booking from './Booking';
 
 export {
   Songs,
@@ -34,4 +35,5 @@ export {
   Login,
   Splash,
   Performance,
+  Booking,
 };
