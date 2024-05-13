@@ -61,6 +61,10 @@ const Router = () => {
         name="Content"
         component={Content}
         options={{headerShown: false}}/>
+      <Stack.Screen 
+        name="Schedule"
+        component={Schedule}
+        options={{headerShown: false}}/>
     </Stack.Navigator>
   );
 };
