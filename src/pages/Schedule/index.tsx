@@ -95,3 +95,119 @@ const Schedule = ({navigation}) => {
   };
   
   export default Schedule;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  gradient: {
+    flex: 1,
+  },
+  containerWrapper: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  calendarContainer: {
+    backgroundColor: 'white',
+    padding: 10,
+    borderRadius: 5,
+    marginBottom: 20,
+    width: 352,
+    height: 335,
+  }, 
+  monthText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 8,
+    color: 'black',
+  },
+  daysSunday: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  daysMonday: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  daysTuesday: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  daysWednesday: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  daysThursday: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  daysFriday: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  daysSaturday: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  daysContainer: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    marginBottom: 5,
+  },
+  Text: {
+    fontSize: 10,
+    color: 'black',
+    marginBottom: 13,
+  },
+  dayText: {
+    fontSize: 20,
+    color: 'black',
+    marginBottom: 13,
+  },
+  otherday: {
+    fontSize: 20,
+    color: '#C4BFBF',
+    marginBottom: 13,
+  },
+  highlightedDay: {
+    fontWeight: 'bold',
+    color: 'red',
+  },
+  eventContainer: {
+    backgroundColor: 'white',
+    padding: 10,
+    marginVertical: 10,
+    borderRadius: 5,
+    width: 352,
+    height: 74,
+  },
+  eventTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: 'black',
+    textAlign: 'right',
+  },
+
+  eventDescription: {
+    fontSize: 14,
+    color: 'black',
+    textAlign: 'right',
+  },
+
+});
