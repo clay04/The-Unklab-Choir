@@ -21,6 +21,7 @@ import Password from './Password.svg';
 import Bank from './payment.svg';
 import Clock from './clock.svg';
 import Location from './location.svg';
+import Calendar from './calendar.svg';
 
 export {
   TUC,
@@ -46,4 +47,5 @@ export {
   Bank,
   Clock,
   Location,
+  Calendar,
 };
