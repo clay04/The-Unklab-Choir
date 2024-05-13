@@ -12,6 +12,7 @@ import Altos from './Members/Altos';
 import Conductor from './Members/Conductor';
 import Coach from './Members/Coach';
 import ProfileMembers from './Members/ProfileMembers';
+import Splash from './Splash';
 
 export {
   Songs,
@@ -28,4 +29,5 @@ export {
   Conductor,
   Coach,
   ProfileMembers,
+  Splash,
 };
