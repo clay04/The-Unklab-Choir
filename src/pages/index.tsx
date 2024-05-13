@@ -1,11 +1,9 @@
 import Booking from './Booking';
 import Merchandise from './Merchandise';
-import Audition from './Audition';
-import Schedule from './Schedule';
+import Payment from './Payment';
 
 export {
     Booking,
     Merchandise,
-    Audition,
-    Schedule,
+    Payment,
 };
