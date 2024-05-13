@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {AlbumsPages, Altos, Basses, Coach, Conductor, Members, MembersMenu, Menu, Officers, ProfileMembers, Songs, SongsPlay, Sopranos, Tenors} from '../pages';
+import {AlbumsPages, Altos, Basses, Coach, Conductor, Login, Members, MembersMenu, Menu, Officers, ProfileMembers, Songs, SongsPlay, Sopranos, Tenors} from '../pages';
 
 
 const Stack = createNativeStackNavigator();
@@ -9,6 +9,10 @@ const Stack = createNativeStackNavigator();
 const Router = () => {
   return (
     <Stack.Navigator>
+      <Stack.Screen 
+        name="Login"
+        component={Login}
+        options={{headerShown: false}}/>
       <Stack.Screen 
         name="Menu"
         component={Menu}
