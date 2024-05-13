@@ -7,6 +7,7 @@ import shirt from './t-shirtred.png';
 import TUCFAM from './tucfamily.png';
 import tumbler from './tumbler.png';
 import unceasingpraise from './unceasingpraise.png';
+import discover from './discover.png';
 
 export {FotTUC};
 export {logo};
@@ -17,3 +18,4 @@ export {shirt};
 export {TUCFAM};
 export {tumbler};
 export {unceasingpraise};
+export {discover};
