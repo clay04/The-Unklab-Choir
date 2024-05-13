@@ -17,7 +17,8 @@ import AuditionIcon from './Audition.svg';
 import MembersIcon from './Members.svg';
 import JadwalIcon from './Jadwal.svg';
 import Mail from './Mail.svg';
-import Password from './Password.svg'
+import Password from './Password.svg';
+import Right1 from './Right1.svg';
 
 export {
   TUC,
@@ -40,4 +41,5 @@ export {
   JadwalIcon,
   Mail,
   Password,
+  Right1,
 };

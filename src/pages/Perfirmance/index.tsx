@@ -1,12 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import React from 'react'
 import LinearGradient from 'react-native-linear-gradient'
 
 const Performance = () => {
   return (
     <View style={styles.container}>
-      <LinearGradient colors={['', '', '']} style={styles.gradient}>
-
+      <LinearGradient colors={['#530303', '#000', '#000']} style={styles.gradient}>
+        
       </LinearGradient>
     </View>
   )
@@ -14,4 +14,11 @@ const Performance = () => {
 
 export default Performance
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  gradient: {
+    flex: 1,
+  }
+})

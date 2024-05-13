@@ -13,7 +13,7 @@ const Menu = ({navigation}) => {
         <MenuButton label='Awards' type='awards'/>
         <MenuButton label='Booking'type='booking' onPress={() => navigation.navigate('Booking')}/>
         <MenuButton label='Merchandise' type='merchandise'/>
-        <MenuButton label='History' type='history'/>
+        <MenuButton label='History' type='history' onPress={() => navigation.navigate('History')}/>
         <MenuButton label='Audition' type='audition'/>
         <MenuButton label='Members' type='members'onPress={() => navigation.navigate('MembersMenu')}/>
         <MenuButton label='Jadwal' type='jadwal'/>
