@@ -13,6 +13,8 @@ import Conductor from './Members/Conductor';
 import Coach from './Members/Coach';
 import ProfileMembers from './Members/ProfileMembers';
 import Login from './Login';
+import Splash from './Splash';
+import Performance from './Perfirmance';
 
 export {
   Songs,
@@ -30,4 +32,6 @@ export {
   Coach,
   ProfileMembers,
   Login,
+  Splash,
+  Performance,
 };

@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
     backgroundColor: backgroundColor,
     paddingVertical: 12,
     borderRadius: borderRadius,
+    width: 300,
   }),
 
   label: textColor => ({

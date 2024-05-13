@@ -9,7 +9,7 @@ const Menu = ({navigation}) => {
       <Header label="Menu" backButton={true} textColor={'#000'}/>
       <View style={styles.containerWrapper}>
         <MenuButton label='Songs' type='song' onPress={() => navigation.navigate('Songs')}/>
-        <MenuButton label='Performance'type='performance'/>
+        <MenuButton label='Performance'type='performance' onPress={() => navigation.navigate('Performance')}/>
         <MenuButton label='Awards' type='awards'/>
         <MenuButton label='Booking'type='booking'/>
         <MenuButton label='Merchandise' type='merchandise'/>
