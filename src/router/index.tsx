@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {AlbumsPages, Menu, Songs, SongsPlay, Merchandise, Members, Audition, Awards, Booking, History, Jadwal, Performances, Payment, Content} from '../pages';
+import {AlbumsPages, Menu, Songs, SongsPlay, Merchandise, Members, Awards, Booking, History, Performances, Payment, Content} from '../pages';
 
 
 const Stack = createNativeStackNavigator();
@@ -34,10 +34,6 @@ const Router = () => {
         component={Members}
         options={{headerShown: false}}/>
       <Stack.Screen 
-        name="Audition"
-        component={Audition}
-        options={{headerShown: false}}/>
-      <Stack.Screen 
         name="Awards"
         component={Awards}
         options={{headerShown: false}}/>
@@ -48,10 +44,6 @@ const Router = () => {
       <Stack.Screen 
         name="History"
         component={History}
-        options={{headerShown: false}}/>
-      <Stack.Screen 
-        name="Jadwal"
-        component={Jadwal}
         options={{headerShown: false}}/>
       <Stack.Screen 
         name="Performances"
