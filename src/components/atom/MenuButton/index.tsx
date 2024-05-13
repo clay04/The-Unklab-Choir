@@ -10,9 +10,23 @@ const MenuButton = ({label, onPress, type}) => {
                 <Text style={styles.label}>{label}</Text>
              </TouchableOpacity>
         )
+    }if (type === 'songHome') {
+        return (
+            <TouchableOpacity style={styles.containerHome} onPress={onPress} activeOpacity={0.7}>
+                <View style={styles.containerWrapper}><NotIcon /></View>
+                <Text style={styles.label}>{label}</Text>
+             </TouchableOpacity>
+        )
     } if (type === 'performance') {
         return (
             <TouchableOpacity style={styles.container} onPress={onPress} activeOpacity={0.7}>
+                <View style={styles.containerWrapper}><PerformanceIcon /></View>
+                <Text style={styles.label}>{label}</Text>
+            </TouchableOpacity>
+        )
+    } if (type === 'performanceHome') {
+        return (
+            <TouchableOpacity style={styles.containerHome} onPress={onPress} activeOpacity={0.7}>
                 <View style={styles.containerWrapper}><PerformanceIcon /></View>
                 <Text style={styles.label}>{label}</Text>
             </TouchableOpacity>
@@ -27,6 +41,13 @@ const MenuButton = ({label, onPress, type}) => {
     } if (type === 'booking') {
         return (
             <TouchableOpacity style={styles.container} onPress={onPress} activeOpacity={0.7}>
+                <View style={styles.containerWrapper}><BookingIcon /></View>
+                <Text style={styles.label}>{label}</Text>
+            </TouchableOpacity>
+        )
+    } if (type === 'bookingHome') {
+        return (
+            <TouchableOpacity style={styles.containerHome} onPress={onPress} activeOpacity={0.7}>
                 <View style={styles.containerWrapper}><BookingIcon /></View>
                 <Text style={styles.label}>{label}</Text>
             </TouchableOpacity>
@@ -52,6 +73,13 @@ const MenuButton = ({label, onPress, type}) => {
                 <Text style={styles.label}>{label}</Text>
             </TouchableOpacity>
         )
+    } if (type === 'auditionHome') {
+        return (
+            <TouchableOpacity style={styles.containerHome} onPress={onPress} activeOpacity={0.7}>
+                <View style={styles.containerWrapper}><AuditionIcon /></View>
+                <Text style={styles.label}>{label}</Text>
+            </TouchableOpacity>
+        )
     } if (type === 'members') {
         return (
             <TouchableOpacity style={styles.container} onPress={onPress} activeOpacity={0.7}>
@@ -63,6 +91,14 @@ const MenuButton = ({label, onPress, type}) => {
         return (
             <TouchableOpacity style={styles.container} onPress={onPress} activeOpacity={0.7}>
                 <View style={styles.containerWrapper}><JadwalIcon /></View>
+                <Text style={styles.label}>{label}</Text>
+            </TouchableOpacity>
+        )
+    }
+    if (type === 'home') {
+        return (
+            <TouchableOpacity style={styles.containerHome} onPress={onPress} activeOpacity={0.7}>
+                <View style={styles.containerWrapper}></View>
                 <Text style={styles.label}>{label}</Text>
             </TouchableOpacity>
         )
@@ -98,5 +134,13 @@ const styles = StyleSheet.create({
         fontFamily: 'Poppins-Medium',
         fontSize: 12,
         color: '#000000'
+    },
+    containerHome: {
+        width: 90,
+        height: 90,
+        alignItems: 'center',
+        flexDirection: 'column',
+        marginBottom: 5,
+        marginHorizontal: 2,
     }
 })

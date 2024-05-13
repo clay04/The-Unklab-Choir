@@ -16,6 +16,7 @@ import Login from './Login';
 import Splash from './Splash';
 import Performance from './Perfirmance';
 import Booking from './Booking';
+import Home from './Home';
 
 export {
   Songs,
@@ -36,4 +37,5 @@ export {
   Splash,
   Performance,
   Booking,
+  Home,
 };

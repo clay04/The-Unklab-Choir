@@ -21,7 +21,7 @@ import {
       signInWithEmailAndPassword(auth, email, password)
         .then(userCredential => {
           const user = userCredential.user;
-          navigation.navigate('Menu', {uid: user.uid});
+          navigation.navigate('Home', {uid: user.uid});
         })
         .catch(error => {
           const errorMessage = error.message;
@@ -63,7 +63,7 @@ import {
           <Gap height={40} />
           <Button label="Log In" onPress={onSubmit} borderRadius={25} backgroundColor='#530303' textColor='#ffffff'/>
           <Text style={{color: '#000', fontFamily: 'Poppins-Medium', marginVertical: 10,}}>Or</Text>
-          <Button label="Continue As Guest" type="google" onPress={() => navigation.navigate('Menu')} borderRadius={25} backgroundColor='#C1C1C1'/>
+          <Button label="Continue As Guest" type="google" onPress={() => navigation.navigate('Home')} borderRadius={25} backgroundColor='#C1C1C1'/>
           <Gap height={10} />
         </LinearGradient>
       </View>
