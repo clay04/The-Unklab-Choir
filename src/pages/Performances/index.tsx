@@ -107,3 +107,56 @@ const Performances = ({navigation}) => {
   };
   
   export default Performances;
+  
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+    },
+    gradient: {
+      flex: 1,
+    },
+    textQuicks: {
+      fontSize: 22,
+      fontFamily: 'Poppins-SemiBold',
+      color: '#ffffff',
+      marginBottom: 10,
+    },
+    albums: {
+      flexDirection: 'row',
+    },
+    contentWrapp: {
+      marginHorizontal: 20,
+      marginBottom: 10,
+      width: 165,
+      height: 175,
+  
+    },
+    containerWrapp: {
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    foto: {
+      borderRadius: 5,
+      marginBottom: 5,
+      width: 140,
+      height: 100,
+    },
+    label: {
+      width: 68,
+      fontFamily: 'Poppins-SemiBold',
+      color: '#ffffff',
+      fontSize: 14,
+    },
+    lower: {
+      width: 146,
+      fontFamily: 'Poppins-Regular',
+      color: '#ffffff',
+      fontSize: 10,
+    },
+    list: {
+      flexDirection: 'row',
+    }
+  });
+  
