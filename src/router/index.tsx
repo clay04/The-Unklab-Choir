@@ -1,6 +1,8 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {AlbumsPages, Menu, Songs, SongsPlay, Merchandise, Members, Awards, Booking, History, Performances, Payment, Content, Audition, Schedule} from '../pages';
+import { audition } from '../assets/image';
 import {AlbumsPages, Altos, Basses, Booking, Coach, Conductor, History, Home, Login, Members, MembersMenu, Menu, Officers, Performance, ProfileMembers, Songs, SongsPlay, Sopranos, Splash, Tenors, Awards, Merchandise, Schedule, PerformanceContents, Audition} from '../pages';
 
 
@@ -21,55 +23,59 @@ const Router = () => {
         name="Menu"
         component={Menu}
         options={{headerShown: false}}/>
-        <Stack.Screen 
-        name="AlbumsPage"
-        component={AlbumsPages}
-        options={{headerShown: false}}/>
-        <Stack.Screen 
+      <Stack.Screen 
         name="Songs"
         component={Songs}
         options={{headerShown: false}}/>
-        <Stack.Screen 
+      <Stack.Screen 
+        name="Albums"
+        component={AlbumsPages}
+        options={{headerShown: false}}/>
+      <Stack.Screen 
         name="SongsPlay"
         component={SongsPlay}
         options={{headerShown: false}}/>
       <Stack.Screen 
-        name="MembersMenu"
-        component={MembersMenu}
+        name="Merchandise"
+        component={Merchandise}
         options={{headerShown: false}}/>
-    <Stack.Screen 
-      name="Members"
-      component={Members}
-      options={{headerShown: false}}/>
       <Stack.Screen 
-      name="Sopranos"
-      component={Sopranos}
-      options={{headerShown: false}}/>
+        name="Members"
+        component={Members}
+        options={{headerShown: false}}/>
       <Stack.Screen 
-      name="Altos"
-      component={Altos}
-      options={{headerShown: false}}/>
+        name="Awards"
+        component={Awards}
+        options={{headerShown: false}}/>
       <Stack.Screen 
-      name="Tenors"
-      component={Tenors}
-      options={{headerShown: false}}/>
+        name="Booking"
+        component={Booking}
+        options={{headerShown: false}}/>
       <Stack.Screen 
-      name="Basses"
-      component={Basses}
-      options={{headerShown: false}}/>
+        name="History"
+        component={History}
+        options={{headerShown: false}}/>
       <Stack.Screen 
-      name="Officers"
-      component={Officers}
-      options={{headerShown: false}}/>
+        name="Performances"
+        component={Performances}
+        options={{headerShown: false}}/>
       <Stack.Screen 
-      name="Conductor"
-      component={Conductor}
-      options={{headerShown: false}}/>
+        name="Payment"
+        component={Payment}
+        options={{headerShown: false}}/>
       <Stack.Screen 
-      name="Coach"
-      component={Coach}
-      options={{headerShown: false}}/>
+        name="Audition"
+        component={Audition}
+        options={{headerShown: false}}/>
       <Stack.Screen 
+        name="Content"
+        component={Content}
+        options={{headerShown: false}}/>
+      <Stack.Screen 
+        name="Schedule"
+        component={Schedule}
+        options={{headerShown: false}}/>
+    </Stack.Navigator>
       name="ProfileMembers"
       component={ProfileMembers}
       options={{headerShown: false}}/>
