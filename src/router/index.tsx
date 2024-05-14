@@ -63,8 +63,13 @@ const Router = () => {
         component={Content}
         options={{headerShown: false}}/>
       <Stack.Screen 
+<<<<<<< HEAD
+        name="Schedule"
+        component={Schedule}
+=======
         name="Audition"
         component={Audition}
+>>>>>>> 5be1ad8fc05e551a3fefb7b50ae62f315a3e077e
         options={{headerShown: false}}/>
     </Stack.Navigator>
   );
