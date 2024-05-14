@@ -9,6 +9,7 @@ import tumbler from './tumbler.png';
 import unceasingpraise from './unceasingpraise.png';
 import discover from './discover.png';
 import logoblack from './logoblack.png';
+import performance from './performance.png';
 
 export {FotTUC};
 export {logo};
@@ -21,3 +22,4 @@ export {tumbler};
 export {unceasingpraise};
 export {discover};
 export {logoblack};
+import {performance};
