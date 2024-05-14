@@ -10,7 +10,7 @@ const Songs = ({navigation}) => {
       <LinearGradient
         colors={['#530303', '#000000', '#000000']}
         style={styles.gradient}>
-        <Header label="Songs" backButton={true} />
+        <Header label="Songs" backButton={true} onPress={() => navigation.goBack()}/>
         <ScrollView showsVerticalScrollIndicator={false}>
           <View>
             <View style={styles.containerWrapper}>
@@ -72,11 +72,11 @@ const Songs = ({navigation}) => {
                   horizontal={true}
                   showsHorizontalScrollIndicator={false}
                   style={styles.albums}>
-                  <Albums source={FotTUC} onPress={() => navigation.navigate('Albums')} label='Unceasing Praise'/>
-                  <Albums source={FotTUC} onPress={() => navigation.navigate('Albums')} label='Unceasing Praise'/>
-                  <Albums source={FotTUC} onPress={() => navigation.navigate('Albums')} label='Unceasing Praise'/>
-                  <Albums source={FotTUC} onPress={() => navigation.navigate('Albums')} label='Unceasing Praise'/>
-                  <Albums source={FotTUC} onPress={() => navigation.navigate('Albums')} label='Unceasing Praise'/>
+                  <Albums source={FotTUC} onPress={() => navigation.navigate('AlbumsPage')} label='Unceasing Praise'/>
+                  <Albums source={FotTUC} onPress={() => navigation.navigate('AlbumsPage')} label='Unceasing Praise'/>
+                  <Albums source={FotTUC} onPress={() => navigation.navigate('AlbumsPage')} label='Unceasing Praise'/>
+                  <Albums source={FotTUC} onPress={() => navigation.navigate('AlbumsPage')} label='Unceasing Praise'/>
+                  <Albums source={FotTUC} onPress={() => navigation.navigate('AlbumsPage')} label='Unceasing Praise'/>
                 </ScrollView>
               </View>
               <Gap height={30} />

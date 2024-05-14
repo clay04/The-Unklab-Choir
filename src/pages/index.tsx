@@ -1,5 +1,53 @@
 import Songs from './Songs';
 import AlbumsPages from './AlbumsPage';
 import SongsPlay from './SongsPlay';
+import Menu from './Menu';
+import MembersMenu from './Members/MembersMenu';
+import Members from './Members/Members';
+import Officers from './Members/Officers';
+import Tenors from './Members/Tenors';
+import Sopranos from './Members/Sopranos';
+import Basses from './Members/Basses';
+import Altos from './Members/Altos';
+import Conductor from './Members/Conductor';
+import Coach from './Members/Coach';
+import ProfileMembers from './Members/ProfileMembers';
+import Login from './Login';
+import Splash from './Splash';
+import Performance from './Perfirmance';
+import Booking from './Booking';
+import Home from './Home';
+import History from './History';
+import Awards from './Awards';
+import Merchandise from './Merchandise';
+import Schedule from './Schedule'
+import PerformanceContents from './PerformanceContent';
+import Audition from './Audition/inde';
 
-export {Songs, AlbumsPages, SongsPlay};
+export {
+  Songs,
+  AlbumsPages,
+  SongsPlay,
+  Menu,
+  MembersMenu,
+  Members,
+  Officers,
+  Tenors,
+  Sopranos,
+  Basses,
+  Altos,
+  Conductor,
+  Coach,
+  ProfileMembers,
+  Login,
+  Splash,
+  Performance,
+  Booking,
+  Home,
+  History,
+  Awards,
+  Merchandise,
+  Schedule,
+  PerformanceContents,
+  Audition,
+};
