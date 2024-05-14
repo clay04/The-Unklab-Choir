@@ -8,7 +8,7 @@ const History = ({navigation}) => {
   return (
     <View style={styles.container}>
       <LinearGradient colors={['#530303', '#fff', '#fff']} style={styles.gradient}>
-        <Header label="History" backButton={true}/>
+        <Header label="History" backButton={true} onPress={() => navigation.goBack()}/>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
           <View>

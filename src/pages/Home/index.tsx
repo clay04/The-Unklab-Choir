@@ -1,6 +1,6 @@
 import { Image, ScrollView, StyleSheet, Text, Touchable, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import { FotTUC, Right1, TUC, TUCLoveStory, UnceasingPraise } from '../../assets'
+import { FotTUC, LogoMerah, Right1, TUC, TUCLoveStory, UnceasingPraise } from '../../assets'
 import { Discover, FlyerSlider, Gap, MenuButton } from '../../components'
 
 const Home = ({navigation}) => {

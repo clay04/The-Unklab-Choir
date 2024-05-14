@@ -7,6 +7,7 @@ import lanyardred from './lanyardred.png';
 import audition from './onlineaudition.png';
 import shirt from './t-shirtred.png';
 import tumbler from './tumbler.png';
+import LogoMerah from './logo tuc (2).png';
 
-export {FotTUC, fotTUC1, TUCLoveStory, UnceasingPraise, lanyardpurple, lanyardred, audition, shirt, tumbler};
+export {FotTUC, fotTUC1, TUCLoveStory, UnceasingPraise, lanyardpurple, lanyardred, audition, shirt, tumbler, LogoMerah};
 

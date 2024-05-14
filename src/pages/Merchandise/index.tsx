@@ -22,7 +22,8 @@ const Merchandise = ({navigation}) => {
                     label="CHECKOUT"
                     backgroundColor="#72E576"
                     textColor="#000000"
-                    onPress={() => navigation.navigate('Payment')}/>
+                    onPress={() => navigation.navigate('Payment')}
+                    width={130}/>
             </View>
             <View style={styles.contentWrapp}>
                 <Image source={lanyardred} style={styles.foto} />
@@ -32,7 +33,8 @@ const Merchandise = ({navigation}) => {
                 <Button
                     label="CHECKOUT"
                     backgroundColor="#72E576"
-                    textColor="#000000"            onPress={() => navigation.navigate('Payment')}/>
+                    textColor="#000000"            onPress={() => navigation.navigate('Payment')}
+                    width={130}/>
             </View>
             <View style={styles.contentWrapp}>
                 <Image source={lanyardpurple} style={styles.foto} />
@@ -40,6 +42,7 @@ const Merchandise = ({navigation}) => {
                 <Text style={styles.label}>Rp.</Text>
                 <Gap height={7} />
                 <Button
+                    width={130}
                     label="CHECKOUT"
                     backgroundColor="#72E576"
                     textColor="#000000"
@@ -54,7 +57,8 @@ const Merchandise = ({navigation}) => {
                     label="CHECKOUT"
                     backgroundColor="#72E576"
                     textColor="#000000"
-                    onPress={() => navigation.navigate('Payment')}/>
+                    onPress={() => navigation.navigate('Payment')}
+                    width={130}/>
             </View>
         </View>
       </LinearGradient>
