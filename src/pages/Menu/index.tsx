@@ -12,7 +12,7 @@ const Menu = ({navigation}) => {
         <MenuButton label='Performance'type='performance' onPress={() => navigation.navigate('Performance')}/>
         <MenuButton label='Awards' type='awards' onPress={() => navigation.navigate('Awards')}/>
         <MenuButton label='Booking'type='booking' onPress={() => navigation.navigate('Booking')}/>
-        <MenuButton label='Merchandise' type='merchandise'/>
+        <MenuButton label='Merchandise' type='merchandise' onPress={() => navigation.navigate('Merchandise')}/>
         <MenuButton label='History' type='history' onPress={() => navigation.navigate('History')}/>
         <MenuButton label='Audition' type='audition'/>
         <MenuButton label='Members' type='members'onPress={() => navigation.navigate('MembersMenu')}/>

@@ -19,6 +19,7 @@ import Booking from './Booking';
 import Home from './Home';
 import History from './History';
 import Awards from './Awards';
+import Merchandise from './Merchandise';
 
 export {
   Songs,
@@ -42,4 +43,5 @@ export {
   Home,
   History,
   Awards,
+  Merchandise,
 };
