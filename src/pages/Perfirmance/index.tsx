@@ -8,7 +8,7 @@ const Performance = ({navigation}) => {
   return (
     <View style={styles.container}>
       <LinearGradient colors={['#530303', '#000', '#000']} style={styles.gradient}>
-        <Header label="Performance" backButton={true}/>
+        <Header label="Performance" backButton={true} onPress={() => navigation.goBack()}/>
         <View style={{paddingHorizontal: 15}}>
           <ScrollView showsVerticalScrollIndicator={false}>
             <Search />

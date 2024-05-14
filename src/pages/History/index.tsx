@@ -15,7 +15,7 @@ const History = ({navigation}) => {
             <Text style={styles.labelHeader}>The</Text>
             <Text style={styles.labelHeader}>Unklab Choir</Text>
           </View>
-            <Text style={styles.labelHeaderDate}>September 18, 1965</Text>
+            <Text style={styles.labelHeaderDate}>September 19, 1965</Text>
         </View>
         <Gap height={20} />
         <View style={{alignItems: 'center'}}>
@@ -44,9 +44,6 @@ const History = ({navigation}) => {
                 <Image source={fotTUC1} style={styles.photo}/>
               </View>
               <Gap height={50} />
-              <View>
-                <Text style={styles.labelText}>The Unklab Choir was created by 1965.</Text>
-              </View>
             </View>
         </View>
       </ScrollView>
@@ -112,7 +109,7 @@ const styles = StyleSheet.create({
     labelHeaderDate: {
       textAlign: "right",
       fontSize: 13,
-      color: '#7D7C7C',
+      color: '#f9f9f9',
       fontFamily: 'Poppins-SemiBold',
     },
     containerWrapp: {

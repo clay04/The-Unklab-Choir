@@ -10,7 +10,7 @@ const Audition = ({navigation}) => {
       <LinearGradient
         colors={['#530303', '#000000', '#000000']}
         style={styles.gradient}>
-        <Header label="Audition" backButton={true} onPress={() => navigation.navigate('Menu')}/>
+        <Header label="Audition" backButton={true} onPress={() => navigation.goBack()}/>
         <Gap height={22} />
         <View style={styles.containerWrapp}>
           <Image source={audition} style={styles.image} />

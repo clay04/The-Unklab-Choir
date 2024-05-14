@@ -10,7 +10,7 @@ const Songs = ({navigation}) => {
       <LinearGradient
         colors={['#530303', '#000000', '#000000']}
         style={styles.gradient}>
-        <Header label="Songs" backButton={true} onPress={() => navigation.goBack()}/>
+        <Header label="Songs" backButton={true} onPress={() => navigation.navigate('Home')}/>
         <ScrollView showsVerticalScrollIndicator={false}>
           <View>
             <View style={styles.containerWrapper}>

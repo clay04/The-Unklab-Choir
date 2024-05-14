@@ -10,7 +10,7 @@ const MembersMenu = ({navigation}) => {
       <LinearGradient 
         colors={['#530303', '#ffffff']}
         style={styles.gradient}>
-            <Header label="Members" backButton={true} />
+            <Header label="Members" backButton={true} onPress={() => navigation.goBack()}/>
             <Gap height={40} />
             <ScrollView showsVerticalScrollIndicator={false} >
               <View style={styles.containerWrapp}>

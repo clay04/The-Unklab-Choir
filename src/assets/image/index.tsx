@@ -1,5 +1,5 @@
 import FotTUC from './1.png';
-import fotTUC1 from './2.png';
+import fotTUC1 from './3.png';
 import TUCLoveStory from './TUCLoveStory.png'
 import UnceasingPraise from './UnceasingPraise.png'
 import lanyardpurple from './lanyardungu.png';
