@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {AlbumsPages, Menu, Songs, SongsPlay, Merchandise, Members, Awards, Booking, History, Performances, Payment, Content, Audition} from '../pages';
+import {AlbumsPages, Menu, Songs, SongsPlay, Merchandise, Members, Awards, Booking, History, Performances, Payment, Content, Audition, Schedule} from '../pages';
 import { audition } from '../assets/image';
 
 
@@ -55,21 +55,16 @@ const Router = () => {
         component={Payment}
         options={{headerShown: false}}/>
       <Stack.Screen 
-        name="Performances"
-        component={Performances}
+        name="Audition"
+        component={Audition}
         options={{headerShown: false}}/>
       <Stack.Screen 
         name="Content"
         component={Content}
         options={{headerShown: false}}/>
       <Stack.Screen 
-<<<<<<< HEAD
         name="Schedule"
         component={Schedule}
-=======
-        name="Audition"
-        component={Audition}
->>>>>>> 5be1ad8fc05e551a3fefb7b50ae62f315a3e077e
         options={{headerShown: false}}/>
     </Stack.Navigator>
   );
