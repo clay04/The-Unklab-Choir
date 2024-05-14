@@ -7,6 +7,7 @@ const Button = ({
   backgroundColor = '#02CF8E',
   textColor = '#020202',
   borderRadius = 8,
+  width = 300,
   onPress,
   type,
   icon,
@@ -28,7 +29,7 @@ const Button = ({
 
   return (
     <TouchableOpacity
-      style={styles.container(backgroundColor, borderRadius)}
+      style={styles.container(backgroundColor, borderRadius, width)}
       activeOpacity={0.7}
       onPress={onPress}>
       <Text style={styles.label(textColor)}>{label}</Text>
@@ -39,11 +40,12 @@ const Button = ({
 export default Button;
 
 const styles = StyleSheet.create({
-  container: (backgroundColor, borderRadius) => ({
+  container: (backgroundColor, borderRadius, width) => ({
     backgroundColor: backgroundColor,
     paddingVertical: 12,
     borderRadius: borderRadius,
-    width: 300,
+    width: width,
+    marginHorizontal: 5,
   }),
 
   label: textColor => ({

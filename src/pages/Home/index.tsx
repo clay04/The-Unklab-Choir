@@ -26,7 +26,7 @@ const Home = ({navigation}) => {
                 <View style={{flexDirection: 'row'}}>
                     <MenuButton label='Songs' type='songHome' onPress={() => navigation.navigate('Songs')} />
                     <MenuButton label='Performance'type='performanceHome' onPress={() => navigation.navigate('Performance')}/>
-                    <MenuButton label='Audition' type='auditionHome'/>
+                    <MenuButton label='Audition' type='auditionHome' onPress={() => navigation.navigate('Audition')}/>
                     <MenuButton label='Booking'type='bookingHome' onPress={() => navigation.navigate('Booking')}/>
                 </View>
             </View>

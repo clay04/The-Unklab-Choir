@@ -14,9 +14,9 @@ const Menu = ({navigation}) => {
         <MenuButton label='Booking'type='booking' onPress={() => navigation.navigate('Booking')}/>
         <MenuButton label='Merchandise' type='merchandise' onPress={() => navigation.navigate('Merchandise')}/>
         <MenuButton label='History' type='history' onPress={() => navigation.navigate('History')}/>
-        <MenuButton label='Audition' type='audition'/>
+        <MenuButton label='Audition' type='audition' onPress={() => navigation.navigate('Audition')}/>
         <MenuButton label='Members' type='members'onPress={() => navigation.navigate('MembersMenu')}/>
-        <MenuButton label='Jadwal' type='jadwal'/>
+        <MenuButton label='Jadwal' type='jadwal' onPress={() => navigation.navigate('Schedule')}/>
       </View>
     </View>
   )

@@ -6,5 +6,6 @@ import Songss from "./Songss";
 import TextInput from "./TextInput";
 import FlyerSlider from "./Flyer";
 import Discover from "./Discover";
+import PerformanceComponents from "./Performance";
 
-export {Header, MembersMenuIcon, MembersWrapp, Albums, Songss, TextInput, FlyerSlider, Discover};
+export {Header, MembersMenuIcon, MembersWrapp, Albums, Songss, TextInput, FlyerSlider, Discover, PerformanceComponents};

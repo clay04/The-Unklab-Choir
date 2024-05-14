@@ -2,11 +2,14 @@ import { Image, ScrollView, StyleSheet, Text, Touchable, TouchableOpacity, View 
 import React from 'react'
 import { FotTUC, Right1, TUC, TUCLoveStory, UnceasingPraise, fotTUC1 } from '../../assets'
 import { Discover, FlyerSlider, Gap, Header, MenuButton } from '../../components'
+import LinearGradient from 'react-native-linear-gradient'
 
 const History = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <ScrollView>
+      <LinearGradient colors={['#530303', '#fff', '#fff']} style={styles.gradient}>
+        <Header label="History" backButton={true}/>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
           <View>
             <Text style={styles.labelHeader}>The</Text>
@@ -47,6 +50,7 @@ const History = ({navigation}) => {
             </View>
         </View>
       </ScrollView>
+      </LinearGradient>
     </View>
   )
 }
@@ -56,8 +60,10 @@ export default History
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        paddingHorizontal: 20,
-        paddingTop: 50,
+    },
+    gradient: {
+      flex: 1,
+      paddingHorizontal: 20,
     },
     header: {
         flexDirection: 'row',
@@ -71,7 +77,7 @@ const styles = StyleSheet.create({
     },
     labelHeader: {
         fontSize: 22,
-        color: '#000',
+        color: '#fff',
         marginLeft: 15,
         fontFamily: 'Poppins-Bold',
     },

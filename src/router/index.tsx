@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {AlbumsPages, Altos, Basses, Booking, Coach, Conductor, History, Home, Login, Members, MembersMenu, Menu, Officers, Performance, ProfileMembers, Songs, SongsPlay, Sopranos, Splash, Tenors, Awards, Merchandise} from '../pages';
+import {AlbumsPages, Altos, Basses, Booking, Coach, Conductor, History, Home, Login, Members, MembersMenu, Menu, Officers, Performance, ProfileMembers, Songs, SongsPlay, Sopranos, Splash, Tenors, Awards, Merchandise, Schedule, PerformanceContents, Audition} from '../pages';
 
 
 const Stack = createNativeStackNavigator();
@@ -96,6 +96,18 @@ const Router = () => {
       <Stack.Screen 
       name="Merchandise"
       component={Merchandise}
+      options={{headerShown: false}}/>
+      <Stack.Screen 
+      name="Schedule"
+      component={Schedule}
+      options={{headerShown: false}}/>
+      <Stack.Screen 
+      name="PerformanceContent"
+      component={PerformanceContents}
+      options={{headerShown: false}}/>
+      <Stack.Screen 
+      name="Audition"
+      component={Audition}
       options={{headerShown: false}}/>
   </Stack.Navigator>
   );

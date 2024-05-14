@@ -20,6 +20,9 @@ import Home from './Home';
 import History from './History';
 import Awards from './Awards';
 import Merchandise from './Merchandise';
+import Schedule from './Schedule'
+import PerformanceContents from './PerformanceContent';
+import Audition from './Audition/inde';
 
 export {
   Songs,
@@ -44,4 +47,7 @@ export {
   History,
   Awards,
   Merchandise,
+  Schedule,
+  PerformanceContents,
+  Audition,
 };
