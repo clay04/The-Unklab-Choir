@@ -2,33 +2,38 @@ import { Image, ScrollView, StyleSheet, Text, Touchable, TouchableOpacity, View 
 import React from 'react'
 import { FotTUC, Right1, TUC, TUCLoveStory, UnceasingPraise, fotTUC1 } from '../../assets'
 import { Discover, FlyerSlider, Gap, MenuButton } from '../../components'
+import LinearGradient from 'react-native-linear-gradient'
 
 const Awards = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <ScrollView>
-        <View style={styles.header}>
-            <Image source={FotTUC} style={styles.logo}/>
-            <Text style={styles.labelHeader}>The Unklab Choir</Text>
-        </View>
-        <Gap height={40} />
-        <View style={{alignItems: 'center'}}>
-            <View style={styles.flayer}>
-                <Image source={fotTUC1} style={styles.flayer}/>
+        <LinearGradient
+        colors={['#530303', '#fff', '#fff']}
+        style={styles.gradient}>
+        <ScrollView>
+            <View style={styles.header}>
+                <Image source={FotTUC} style={styles.logo}/>
+                <Text style={styles.labelHeader}>The Unklab Choir</Text>
             </View>
-            <Gap height={50}/>
-            <View>
-                <Text style={styles.labelContent}>Awards</Text>
-                <Gap height={10} />
+            <Gap height={40} />
+            <View style={{alignItems: 'center'}}>
+                <View style={styles.flayer}>
+                    <Image source={fotTUC1} style={styles.flayer}/>
+                </View>
+                <Gap height={50}/>
                 <View>
+                    <Text style={styles.labelContent}>Awards</Text>
+                    <Gap height={10} />
                     <View>
-                        <Discover label="Pelayanan The Unklab Choir di Tobelo" source={UnceasingPraise}/>
-                        <Discover label="Pelayanan The Unklab Choir di Jakarta" source={TUCLoveStory}/>
+                        <View>
+                            <Discover label="Pelayanan The Unklab Choir di Tobelo" source={UnceasingPraise}/>
+                            <Discover label="Pelayanan The Unklab Choir di Jakarta" source={TUCLoveStory}/>
+                        </View>
                     </View>
                 </View>
             </View>
-        </View>
-      </ScrollView>
+        </ScrollView>
+      </LinearGradient>
     </View>
   )
 }
@@ -38,8 +43,11 @@ export default Awards
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+    },
+    gradient: {
+        flex: 1,
         paddingHorizontal: 20,
-        paddingTop: 50,
+        paddingTop: 40,
     },
     header: {
         alignItems: "center",

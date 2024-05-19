@@ -8,7 +8,7 @@ const MembersMenu = ({navigation}) => {
   return (
     <View style={styles.container}>
       <LinearGradient 
-        colors={['#530303', '#ffffff']}
+        colors={['#530303', '#ffffff', '#ffffff']}
         style={styles.gradient}>
             <Header label="Members" backButton={true} onPress={() => navigation.goBack()}/>
             <Gap height={40} />

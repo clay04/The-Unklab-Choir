@@ -9,10 +9,6 @@ const MembersWrapp = ({label1, label2, onPress, onPress1}) => {
         <Image source={FotTUC} style={styles.profile}/>
         <Text style={styles.label}>{label1}</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.container1} activeOpacity={0.8} onPress={onPress1}>
-        <Image source={FotTUC} style={styles.profile}/>
-        <Text style={styles.label1}>{label2}</Text>
-      </TouchableOpacity>
     </View>
   )
 }

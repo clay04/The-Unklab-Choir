@@ -39,7 +39,6 @@ const Home = ({navigation}) => {
                         <Discover label="Pelayanan The Unklab Choir di Tobelo dengan Tema Unceasing Praise" source={UnceasingPraise}/>
                         <Discover label="Pelayanan The Unklab Choir di Jakarta dengan Tema Love Story" source={TUCLoveStory}/>
                     </View>
-                    
                 </ScrollView>
             </View>
         </View>
